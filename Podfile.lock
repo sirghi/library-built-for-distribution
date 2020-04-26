@@ -1,0 +1,25 @@
+PODS:
+  - Apollo (0.25.0):
+    - Apollo/Core (= 0.25.0)
+  - Apollo/Core (0.25.0)
+  - FrameworkA (0.1.1):
+    - Apollo (= 0.25.0)
+
+DEPENDENCIES:
+  - FrameworkA (from `.`)
+
+SPEC REPOS:
+  trunk:
+    - Apollo
+
+EXTERNAL SOURCES:
+  FrameworkA:
+    :path: "."
+
+SPEC CHECKSUMS:
+  Apollo: c0fbe32f9d4fb5aaffbab6adcecd492a2e952eab
+  FrameworkA: 64465c848294a01495a181ba67d01f676683bcf2
+
+PODFILE CHECKSUM: 8c61258ec597be599d08bfc2b18f5e60228a5fc3
+
+COCOAPODS: 1.9.1
