@@ -1,6 +1,6 @@
 platform :ios, '9.0'
 
-# use_frameworks!
+use_frameworks!
 
 target 'Opa' do
 	pod'FrameworkA', :path => '.'

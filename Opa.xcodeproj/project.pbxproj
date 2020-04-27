@@ -13,11 +13,11 @@
 		7B0F5F0924524D290044CDAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B0F5F0724524D290044CDAF /* Main.storyboard */; };
 		7B0F5F0B24524D2C0044CDAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B0F5F0A24524D2C0044CDAF /* Assets.xcassets */; };
 		7B0F5F0E24524D2C0044CDAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B0F5F0C24524D2C0044CDAF /* LaunchScreen.storyboard */; };
-		CD6424315D0E69317E08E0C6 /* libPods-Opa.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00DE1434C6E29A662DA45A7D /* libPods-Opa.a */; };
+		F2CD8AE497F43EFC67AAF340 /* Pods_Opa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 539D66A2362FA15938D4DF75 /* Pods_Opa.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		00DE1434C6E29A662DA45A7D /* libPods-Opa.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Opa.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		539D66A2362FA15938D4DF75 /* Pods_Opa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Opa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6904FBD8362647B2A35CDFE9 /* Pods-Opa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Opa.debug.xcconfig"; path = "Target Support Files/Pods-Opa/Pods-Opa.debug.xcconfig"; sourceTree = "<group>"; };
 		7B0F5EFE24524D290044CDAF /* Opa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Opa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B0F5F0124524D290044CDAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -37,7 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD6424315D0E69317E08E0C6 /* libPods-Opa.a in Frameworks */,
+				F2CD8AE497F43EFC67AAF340 /* Pods_Opa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +90,7 @@
 			children = (
 				7B5D26DD2454E32200AAEECC /* libApollo.a */,
 				7B5D26DF2454F86D00AAEECC /* Apollo.framework */,
-				00DE1434C6E29A662DA45A7D /* libPods-Opa.a */,
+				539D66A2362FA15938D4DF75 /* Pods_Opa.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -106,6 +106,7 @@
 				7B0F5EFA24524D290044CDAF /* Sources */,
 				7B0F5EFB24524D290044CDAF /* Frameworks */,
 				7B0F5EFC24524D290044CDAF /* Resources */,
+				5B31095ED670AD479A58B287 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -163,6 +164,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		5B31095ED670AD479A58B287 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Opa/Pods-Opa-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Opa/Pods-Opa-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Opa/Pods-Opa-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		8FB2C98C911D3B091BBF9A3F /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
